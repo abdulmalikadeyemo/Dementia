@@ -8,12 +8,9 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-st.markdown("""
-            <h3 style="text-align:center;color:#006ef5;" Automated Dementia Prediction System</h3>
-            """, unsafe_allow_html=True)
 
 st.write("
-         #Automated Dementia Prediction System
+# Automated Dementia Prediction System
          ")
          
 st.image("dementia_hero.jpg")
