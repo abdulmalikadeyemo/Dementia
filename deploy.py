@@ -11,6 +11,13 @@ with open('style.css') as f:
 st.markdown("""
             <h3 style="text-align:center;color:#006ef5;" Automated Dementia Prediction System</h3>
             """, unsafe_allow_html=True)
+
+st.write("
+         #Automated Dementia Prediction System
+         ")
+         
+st.image("dementia_hero.jpg")
+
 st.write("""
 Dementia is the 7th leading cause of death and a major cause of disability among older people. 
 It is often misunderstood and ultimately leads to stigmatization and barriers to diagnosis and care
