@@ -10,7 +10,7 @@ with open('style.css') as f:
 
 
 st.write("""
-# Automated Dementia Prediction System
+# Automated Dementia Prediction
          """)
          
 st.image("dementia_hero.jpg")
