@@ -27,7 +27,7 @@ def user_input_features():
     educ = st.sidebar.number_input('EDUC', min_value=6, max_value=23, step=1)
     mmse = st.sidebar.number_input('MMSE', min_value=4, max_value=30, step=1)
     #cdr = st.sidebar.slider('CDR', 0.0,2.0)
-    cdr = st.sidebar.number_input('CDR', min_value=0.0, max_value=2.0, step=0.5, format="%.2f")
+    cdr = st.sidebar.number_input('CDR', min_value=0.0, max_value=2.0, step=0.5, format="%.1f")
     e_tiv = st.sidebar.number_input('eTIV', min_value=1106, max_value=2004, step=1)
     n_wbv = st.sidebar.number_input('nWBV', min_value=0.644, max_value=0.837, step=0.001,format="%.3f")
     #asf = st.sidebar.number_input('ASF', min_value=0.876, max_value=1.587, step=0.001, format="%.3f")
