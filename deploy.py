@@ -4,18 +4,19 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 from sklearn.preprocessing import StandardScaler
 
+
+st.markdown("""
+            <h3 style="text-align:center;color:#006ef5;" Automated Dementia Prediction System</h3>
+            """, unsafe_allow_html=True)
 st.write("""
-# Dementia Prediction App
+Dementia is the 7th leading cause of death and a major cause of disability among older people. 
+It is often misunderstood and ultimately leads to stigmatization and barriers to diagnosis and care
 
-Dementia is the 7th leading cause of death among all diseases 
-and one of the major causes of disability and dependency among 
-older people globally. It has physical, psychological, social 
-and economic consequences, not only for people living with dementia, 
-but also for their carers, families and society at large. 
-There is often a lack of awareness and understanding of dementia, 
-resulting in stigmatization and barriers to diagnosis and care.
+""")
 
-This app predicts weather a patient has Dementia or not!
+st.write("""
+At source-code, we are implementing an artificial intelligence diagnostic system that provides an automated diagnosis without a specialist. 
+It provides accurate results, which would help break the barriers to diagnosis and care
 """)
 
 st.sidebar.header('User Input Parameters')
