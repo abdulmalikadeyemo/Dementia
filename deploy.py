@@ -9,9 +9,9 @@ with open('style.css') as f:
 
 
 
-st.write("
+st.write("""
 # Automated Dementia Prediction System
-         ")
+         """)
          
 st.image("dementia_hero.jpg")
 
